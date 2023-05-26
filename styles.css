@@ -1,0 +1,9 @@
+.body {
+    display: flex;
+    flex-direction:colum		      
+}
+
+.main {
+    display: flex;
+    flex-direction:row-reverse
+}

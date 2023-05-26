@@ -1,0 +1,355 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2014-03-19
+    See: https://launchpad.net/bugs/1288690
+  -->
+  <head>
+    <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="behavior.js"></script>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Viaje con nosotros: Le acompañamos</title>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+r
+    background-color: #D8DBE2;
+
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  .body {
+  display: flex;
+  flex-direction:column
+  }
+  
+  div.main_page {
+    position: relative;
+    display: table;
+
+  .main {
+  display: flex;
+  flex-direction:row-reverse
+  }
+  
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 99px;
+    width: 100%;
+
+    background-color: #F5F6F7;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.table_of_contents {
+    clear: left;
+
+    min-width: 200px;
+
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+
+    width: 100%;
+
+    margin: 4px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: verdana;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_red {
+    background-color: #CD214F;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.validator {
+  }
+    </style>
+  </head>
+    <body>
+      class="works_on_smartphone"
+       <div class="main_page">
+       <div class="page_header floating_element">
+	 <img src="https://images.app.goo.gl/bWhnftSVDoFh7nY29" alt="Te acompanamos" class="floating_element"/>
+	 
+        <span class="floating_element">
+          VIAJA CON NOSOTROS
+        </span>
+       </div>
+<!--      <div class="table_of_contents floating_element">
+        <div class="section_header section_header_grey">
+          TABLE OF CONTENTS
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#about">About</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#changes">Changes</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#scope">Scope</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#files">Config files</a>
+        </div>
+      </div>
+-->
+      <div class="content_section floating_element">
+
+
+        <div class="section_header section_header_red">
+          <div id="about"></div>
+          VIAJA CON NOSOTROS, TE ACOMPANAMOS EN TODO TU VIAJE
+        </div>
+        <div class="content_section_text">
+          <p>
+                 <b>VIAJE CON NOSOTROS </b> Podemos ofrecerte todo lo relacioanado con tus proximas vacaciones, viaje familiar, de pareja o de negocios, asi como convenciones empresariales, viajes a la medida y toures especificos
+               
+          </p>
+
+
+          <p>
+            Si requieres tiquetes, hospedaje, planes de alimentacion, tramite de visado, alquiler de vehiculo, estas en el lugar indicado
+
+	  </p>
+
+        </div>
+        <div class="section_header">
+          <div id="changes"></div>
+                TU SEGURIDAD NUESTRA PRIORIDAD
+        </div>
+        <div class="content_section_text">
+          <p>
+                Tu seguridad y la de tu familia es nuestra prioridad
+                               
+                Cumplimos con un riguroso protocolo para brindarte toda la tranquilidad a la hora de viajar
+                 </p>
+
+          
+          <p>
+                Garantizamos a traves de nuestra experiencia y años de servicio, que tendras la mejor de las experiencias vacacionales que hayas podido tener
+          </p>
+          <pre>
+/nuestros destinos
+| europa
+       -  madrid barcelona paris 
+| caribe
+       - cancun 
+       - punta cana
+ 
+| estados unidos
+| suramerica y centro america
+      
+          </pre>
+          <ul>
+                        <li>
+                           <tt>Nuestro portafolio de serivicios consta de:</tt>.
+                        </li>
+
+                        <li>
+                           <tt>venta de tiquetes aereos nacionales e internacionales</tt>
+                        </li>
+
+                        <li>
+                           <tt>planes turisticos </tt>,
+                           <tt>seguros de viaje</tt> y <tt>asistencias medicas internacionales</tt>
+                        </li>
+
+                        <li>
+                           reservas de hoteles 
+                           <tt>
+     
+                           </tt>
+                         
+
+                        </li>
+
+                        <li>
+                           alquiler de autos.
+                        </li>
+          </ul>
+        </div>
+
+        <div class="section_header">
+            <div id="docroot"></div>
+                BIENVENIDOS
+        </div>
+
+        <div class="content_section_text">
+          
+                <p> conocenos  <a href="https://15.188.85.142">clickaqui </a>.</p>
+             
+                <p> <a> href="htpps://apply.holbertonschool.com" <img src="https://apply.holbertonschool.com/holberton-logo.png"</a> </p>
+								      
+<img src="https://www.pexels.com/photo/white-cruise-ship-813011/" class="floating_element small"/>
+								      
+                <p> tweet tendencia  <a href="htpps://15.188.85.142/tweets.html">clickaqui </a>.</p>
+
+		<aside
+		<p> placeholder to add comment thread later </p>
+		</aside>
+
+		
+
+		
+        </div>
+
+        <div class="section_header">
+          <div id="bugs"></div>
+                Tenemos todo lo que estabas buscando para hacer realidad tu sueno de viajar conocenos
+        </div>
+        <div class="content_section_text">
+         
+        </div>
+
+	<footer
+	  <p> made by Jaider Arbelaez for <a href="https:applu.holbertonschool" target="_blank"> Holberton School </a> </p>
+        </footer>
+
+	  
+    </div>  
+    
+    
+
+    </body>
+	
+
+    </html>
+
